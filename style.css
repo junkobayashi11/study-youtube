@@ -3,11 +3,17 @@
   margin: auto;
 }
 div{
-  background-color: lightgreen;
+  background-color: lightblue;
 }
 
-@media (min-width: 600px){
+@media (max-width: 900px){
   div{
     background-color: pink;
+  }
+}
+
+@media (max-width: 600px){
+  div{
+    background-color: lightgreen;
   }
 }

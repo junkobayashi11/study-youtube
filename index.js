@@ -1,5 +1,3 @@
-import log, {name} from "./user.js";
+import * as pokemon from "./pokemon/index.js";
 
-log(name);
-
-document.body.textContent = name;
+document.body.textContent = pokemon.pika;

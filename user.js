@@ -1,3 +1,7 @@
 const name = "ピカチュー";
-const name2 ="ライチュー"
-export {name, name2};
+
+function log(value){
+  console.log(value);
+}
+
+export { name, log };

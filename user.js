@@ -1,7 +1,8 @@
-const name = "ピカチュー";
+export const name = "ピカチュー";
 
-function log(value){
+export default function (value){
   console.log(value);
 }
 
-export { name, log };
+// export { name };
+// export default log;

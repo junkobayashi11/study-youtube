@@ -1,6 +1,5 @@
-import {name as pika, log} from "./user.js";
-import {name} from "./user.js";
+import log, {name} from "./user.js";
 
-log(pika);
+log(name);
 
 document.body.textContent = name;
